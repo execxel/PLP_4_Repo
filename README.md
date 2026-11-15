@@ -22,4 +22,5 @@ All 6 database operations are consolidated into a single executable SQL script:
 ### 1. Clone or Pull the Repository
 If cloning for the first time:
 ```bash
-[git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)](https://github.com/execxel/PLP_4_Repo.git)
+git clone https://github.com/execxel/PLP_4_Repo.git
+cd PLP_4_REPO
