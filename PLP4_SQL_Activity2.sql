@@ -36,3 +36,11 @@ SELECT
     b.chauffeur_service AS Chauffeur_Service
 FROM passengers p
 INNER JOIN bookings b ON p.passenger_id = b.passenger_id;
+
+
+
+USE airline_db;
+
+-- Delete from child table first to respect FOREIGN KEY (passenger_id)
+DELETE FROM bookings
+WHERE passenger_id = 1;
