@@ -21,3 +21,18 @@ CREATE TABLE bookings (
     chauffeur_service BOOLEAN DEFAULT FALSE,
     FOREIGN KEY (passenger_id) REFERENCES passengers(passenger_id)
 );
+
+
+
+
+-- Bruno Rwanda
+SELECT 
+    p.name AS Passenger_Name,
+    p.destination AS Destination,
+    b.class_tier AS Tier,
+    b.seat_preference AS Seat_Preference,
+    b.lounge_pass_code AS Lounge_Pass,
+    b.suite_number AS Suite_Number,
+    b.chauffeur_service AS Chauffeur_Service
+FROM passengers p
+INNER JOIN bookings b ON p.passenger_id = b.passenger_id;
