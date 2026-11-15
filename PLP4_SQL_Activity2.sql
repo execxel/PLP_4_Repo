@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS airline_db;
+CREATE DATABASE airline_db;
 USE airline_db;
 
 -- Parent table storing base passenger details
