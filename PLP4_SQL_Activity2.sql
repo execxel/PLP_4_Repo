@@ -23,6 +23,10 @@ CREATE TABLE bookings (
 );
 
 
+INSERT INTO passengers (passenger_id, name, current_location, destination, travel_date) VALUES
+(1, 'Farah Ibrahim', 'Kigali', 'Nairobi', '2026-12-01'),
+(2, 'Ntwali O. Axel', 'Kigali', 'London', '2026-12-05'),
+
 
 
 -- Bruno Rwanda
