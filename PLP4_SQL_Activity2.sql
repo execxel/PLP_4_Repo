@@ -37,7 +37,15 @@ SELECT
 FROM passengers p
 INNER JOIN bookings b ON p.passenger_id = b.passenger_id;
 
+-- Update destination in the passengers table
+UPDATE passengers
+SET destination = 'Entebbe'
+WHERE passenger_id = 1;
 
+-- Update seat_preference in the bookings table
+UPDATE bookings
+SET seat_preference = 'Aisle'
+WHERE passenger_id = 1;
 
 
 
