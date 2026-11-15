@@ -30,6 +30,8 @@ INSERT INTO passengers (passenger_id, name, current_location, destination, trave
 (4, 'Rwanda Bruno', 'Kigali', 'New York', '2026-12-15');
 
 
+INSERT INTO bookings (booking_id, passenger_id, class_tier, seat_preference, lounge_pass_code, suite_number, chauffeur_service) VALUES
+
 -- Bruno Rwanda
 SELECT 
     p.name AS Passenger_Name,
