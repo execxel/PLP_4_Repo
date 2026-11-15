@@ -31,6 +31,7 @@ INSERT INTO passengers (passenger_id, name, current_location, destination, trave
 
 
 INSERT INTO bookings (booking_id, passenger_id, class_tier, seat_preference, lounge_pass_code, suite_number, chauffeur_service) VALUES
+(101, 1, 'Economy', 'Window', 'EC-001', NULL, FALSE),
 
 -- Bruno Rwanda
 SELECT 
