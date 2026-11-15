@@ -34,14 +34,6 @@ INSERT INTO bookings (booking_id, passenger_id, class_tier, seat_preference, lou
 (101, 1, 'Economy', 'Window', 'EC-001', NULL, FALSE),
 (102, 2, 'Business', 'Aisle', 'VIP-9942', NULL, FALSE),
 (103, 3, 'First', NULL, NULL, '1A', TRUE),
-
-
-
-
-
-
-
-
 (105, 4, 'Economy', 'Aisle', 'EC-002', NULL, FALSE);
 
 -- Bruno Rwanda
