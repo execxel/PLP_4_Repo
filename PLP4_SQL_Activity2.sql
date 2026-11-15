@@ -36,6 +36,19 @@ INSERT INTO bookings (booking_id, passenger_id, class_tier, seat_preference, lou
 (103, 3, 'First', NULL, NULL, '1A', TRUE),
 (105, 4, 'Economy', 'Aisle', 'EC-002', NULL, FALSE);
 
+-- Farah Ibrahim Isse
+SELECT
+    p.passenger_id,
+    p.name,
+    p.current_location,
+    p.destination,
+    p.travel_date,
+    b.class_tier
+FROM passengers p
+INNER JOIN bookings b ON p.passenger_id = b.passenger_id
+WHERE b.class_tier IN ('Business', 'First');
+
+
 -- Bruno Rwanda
 SELECT 
     p.name AS Passenger_Name,
